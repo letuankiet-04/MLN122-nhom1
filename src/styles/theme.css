@@ -1,0 +1,108 @@
+/* Theme classes & utilities mapping directly to design tokens */
+
+.bg-canvas {
+  background-color: var(--bg-app);
+}
+
+.bg-surface {
+  background-color: var(--surface-card);
+}
+
+.bg-surface-subtle {
+  background-color: var(--surface-card-subtle);
+}
+
+.bg-surface-elevated {
+  background-color: var(--surface-elevated);
+}
+
+.border-theme-subtle {
+  border-color: var(--border-subtle);
+}
+
+.border-theme-strong {
+  border-color: var(--border-strong);
+}
+
+.text-theme-main {
+  color: var(--text-main);
+}
+
+.text-theme-muted {
+  color: var(--text-muted);
+}
+
+.text-theme-faint {
+  color: var(--text-faint);
+}
+
+.text-theme-primary {
+  color: var(--color-primary);
+}
+
+.text-theme-secondary {
+  color: var(--color-secondary);
+}
+
+.text-theme-accent {
+  color: var(--color-accent);
+}
+
+.bg-theme-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-theme-primary-subtle {
+  background-color: var(--color-primary-subtle);
+}
+
+.bg-theme-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-theme-secondary-subtle {
+  background-color: var(--color-secondary-subtle);
+}
+
+.bg-theme-accent {
+  background-color: var(--color-accent);
+}
+
+.bg-theme-accent-subtle {
+  background-color: var(--color-accent-subtle);
+}
+
+.shadow-theme-card {
+  box-shadow: var(--shadow-card);
+}
+
+.shadow-theme-elevated {
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* KaTeX container adjustments */
+.katex-display {
+  margin: 0.75rem 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+}

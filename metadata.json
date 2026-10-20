@@ -1,0 +1,7 @@
+{
+  "name": "ECONVERSE — Nền tảng Học tập Kinh tế chính trị Mác – Lênin",
+  "description": "Nền tảng học tập tương tác, trực quan hóa 4 quy luật kinh tế hàng hóa theo giáo trình MLN122 với biểu đồ thực tế, mô phỏng cung cầu, flashcard, quiz và trợ lý AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

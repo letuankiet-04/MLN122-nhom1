@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+@import "./styles/theme.css";
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--text-main);
+    background-color: var(--bg-app);
+    min-height: 100vh;
+  }
+}
